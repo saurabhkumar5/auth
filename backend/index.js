@@ -9,7 +9,7 @@ require('./Models/db')
 
 app.use(express.json())
 
-const PORT = process.env.PORT || 5500
+const PORT = process.env.PORT || 5500 
 
 
 app.use('/auth',AuthRouter);
